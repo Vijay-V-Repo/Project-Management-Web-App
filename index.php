@@ -33,77 +33,30 @@
             </div>
         </div>
 
-        <!-- Begin page -->
-                <div class="account-pages">
+        <div class="account-pages">
             
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div>
-                            <div >
-                                <a class="logo logo-admin"><img src="assets/images/logo_dark.png" height="28" alt="logo"></a>
-                            </div>
-                            <h5 class="font-14 text-muted mb-4">Keep Track Of What You are doing !</h5>
-                            <p class="text-muted mb-4">Getting anxious about project management in WFH ? Or Difficult to keep track of multiple projects? Here, we give a great solution to you ! Manage your projects and collaborate with your team easily in a user - friendly way. <br>Join with us & lead with us</p>
-
-                            <h5 class="font-14 text-muted mb-4">Goals :</h5>
-                            <div>
-                                <p><i class="mdi mdi-arrow-right text-primary mr-2"></i>Know what you are doing & what pace you are doing it.</p>
-                                <p><i class="mdi mdi-arrow-right text-primary mr-2"></i>Collaborate with your team as well as your clients in a much easier way.</p>
-                                <p><i class="mdi mdi-arrow-right text-primary mr-2"></i>Assign tasks, complete tasks and know your statistics as well.</p>
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-8">
+                        <div class="card">
+                            <div class="card-block">
+            
+                                <div class="ex-page-content text-center">
+                                    <h1 class="text-primary"><i class="far fa-smile text-success ml-1 mr-1"></i></h1>
+                                    <h4 class="">UNDER CONSTRUCTION !</h4><br>
+            
+                                    <a class="btn btn-primary mb-5 waves-effect waves-light" href="login.php">Log In</a>
+                                    <a class="btn btn-primary mb-5 waves-effect waves-light" href="pages-register.php">Register</a>
+                                </div>
+            
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-5 offset-lg-1">
-                        <div class="card mb-0">
-                            <div class="card-body">
-                                <div class="p-2">
-                                    <h4 class="text-muted float-right font-18 mt-4">Sign In</h4>
-                                    <div>
-                                        <a class="logo logo-admin"><img src="assets/images/logo_dark.png" height="28" alt="logo"></a>
-                                    </div>
-                                </div>
-        
-                                <div class="p-2">
-                                    <form class="form-horizontal m-t-20" action="home.php">
-        
-                                        <div class="form-group row">
-                                            <div class="col-12">
-                                                <input class="form-control" type="text" required="" name="user" id="user" placeholder="Username">
-                                            </div>
-                                        </div>
-        
-                                        <div class="form-group row">
-                                            <div class="col-12">
-                                                <input class="form-control" type="password" required="" name="pass" id="pass" placeholder="Password">
-                                            </div>
-                                        </div>
-        
-                                        <div class="form-group text-center row m-t-20">
-                                            <div class="col-12">
-                                                <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Log In</button>
-                                            </div>
-                                        </div>
-        
-                                        <div class="form-group m-t-10 mb-0 row">
-                                            <div class="col-sm-7 m-t-20">
-                                                <a href="pages-recoverpw.php" class="text-muted"><i class="mdi mdi-lock"></i> Forgot your password?</a>
-                                            </div>
-                                            <div class="col-sm-5 m-t-20">
-                                                <a href="pages-register.php" class="text-muted"><i class="mdi mdi-account-circle"></i> Create an account</a>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-        
-                            </div>
-                        </div>
+                                            
                     </div>
                 </div>
                 <!-- end row -->
             </div>
         </div>
-
 
 
         <!-- jQuery  -->

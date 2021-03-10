@@ -69,7 +69,7 @@
                                 </div>
         
                                 <div class="p-2">
-                                    <form class="form-horizontal m-t-20" action="pages-register-entry.php">
+                                    <form class="form-horizontal m-t-20" action="login.php">
         
                                         <div class="form-group row">
                                             <div class="col-12">
@@ -88,10 +88,26 @@
                                                 <input class="form-control" type="number" required="" name="ph" id="ph" placeholder="Mobile Number">
                                             </div>
                                         </div>
+                                        
+                                        <div class="form-group row">
+                                                <div class="col-sm-12">
+                                                    <select class="form-control">
+                                                        <option>Select</option>
+                                                        <option>Student</option>
+                                                        <option>Professional</option>
+                                                    </select>
+                                                </div>
+                                            </div>
             
                                         <div class="form-group row">
                                             <div class="col-12">
-                                                <input class="form-control" type="password" required="" name="pass" id="pass" placeholder="Password">
+                                                <input class="form-control" type="password" required="" name="pass1" id="pass1" placeholder="Password">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="form-group row">
+                                            <div class="col-12">
+                                                <input class="form-control" type="password" required="" name="pass2" id="pass2" placeholder="Confirm Password">
                                             </div>
                                         </div>
             
@@ -111,7 +127,7 @@
                                         </div>
                                         <div class="form-group m-t-10 mb-0 row">
                                             <div class="col-12 m-t-20 text-center">
-                                                <a href="index.php" class="text-muted">Already have account?</a>
+                                                <a href="login.php" class="text-muted">Already have account?</a>
                                             </div>
                                         </div>
                                     </form>

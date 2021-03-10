@@ -34,11 +34,7 @@
         </div>
 
         <!-- Begin page -->
-        <div class="home-btn d-none d-sm-block">
-            <a class="text-dark"><i class="mdi mdi-home h1"></i></a>
-        </div>
-        
-        <div class="account-pages">
+                <div class="account-pages">
             
             <div class="container">
                 <div class="row align-items-center">
@@ -56,41 +52,48 @@
                                 <p><i class="mdi mdi-arrow-right text-primary mr-2"></i>Collaborate with your team as well as your clients in a much easier way.</p>
                                 <p><i class="mdi mdi-arrow-right text-primary mr-2"></i>Assign tasks, complete tasks and know your statistics as well.</p>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <div class="card mb-0">
                             <div class="card-body">
-                                <div class="text-center">
+                                <div class="p-2">
+                                    <h4 class="text-muted float-right font-18 mt-4">Sign In</h4>
                                     <div>
-                                        <a href="index.html" class="logo logo-admin"><img src="assets/images/logo_dark.png" height="28" alt="logo"></a>
+                                        <a class="logo logo-admin"><img src="assets/images/logo_dark.png" height="28" alt="logo"></a>
                                     </div>
-                                    <h4 class="text-muted font-18 mt-4"> Reset Password</h4>
                                 </div>
         
                                 <div class="p-2">
-                                    <form class="form-horizontal m-t-20" action="login.php">
+                                    <form class="form-horizontal m-t-20" action="home.php">
         
-                                        <div class="alert alert-danger alert-dismissible">
-                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                                            Enter your <b>Email</b> and instructions will be sent to you!
-                                        </div>
-            
                                         <div class="form-group row">
                                             <div class="col-12">
-                                                <input class="form-control" name="email" id="email" type="email" required="" placeholder="Email">
+                                                <input class="form-control" type="text" required="" name="user" id="user" placeholder="Username">
                                             </div>
                                         </div>
-            
+        
+                                        <div class="form-group row">
+                                            <div class="col-12">
+                                                <input class="form-control" type="password" required="" name="pass" id="pass" placeholder="Password">
+                                            </div>
+                                        </div>
+        
                                         <div class="form-group text-center row m-t-20">
                                             <div class="col-12">
-                                                <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Send Email</button>
+                                                <button class="btn btn-primary btn-block waves-effect waves-light" type="submit">Log In</button>
                                             </div>
                                         </div>
-            
+        
+                                        <div class="form-group m-t-10 mb-0 row">
+                                            <div class="col-sm-7 m-t-20">
+                                                <a href="pages-recoverpw.php" class="text-muted"><i class="mdi mdi-lock"></i> Forgot your password?</a>
+                                            </div>
+                                            <div class="col-sm-5 m-t-20">
+                                                <a href="pages-register.php" class="text-muted"><i class="mdi mdi-account-circle"></i> Create an account</a>
+                                            </div>
+                                        </div>
                                     </form>
-                                    <!-- end form -->
                                 </div>
         
                             </div>
@@ -100,6 +103,7 @@
                 <!-- end row -->
             </div>
         </div>
+
 
 
         <!-- jQuery  -->
