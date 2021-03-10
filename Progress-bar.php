@@ -1,4 +1,37 @@
-<div class="tab">
+                   <div class="page-content-wrapper ">
+
+                        <div class="container-fluid">
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="page-title-box">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-8">
+                                                <h1 class="page-title m-0" style="text-align: center;"><b style="color: navy">PROJECTS</b></h1>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="float-right d-none d-md-block">
+                                                    <div class="dropdown">
+                                                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            <i class="ti-settings mr-1"></i> Settings
+                                                        </button>
+                                                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated">
+                                                            <a class="dropdown-item" href="#">+ Add Projects</a>
+                                                            <a class="dropdown-item" href="#">Edit Profile</a>
+                                                            <a class="dropdown-item" href="#">Edit Project Details</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- end col -->
+                                        </div>
+                                        <!-- end row -->
+                                    </div>
+                                    <!-- end page-title-box -->
+                                </div>
+                            </div> 
+                            <!-- end page title -->
+                            <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'In Progress')">In Progress</button>
   <button class="tablinks" onclick="openCity(event, 'Completed')">Completed</button>
 </div>
