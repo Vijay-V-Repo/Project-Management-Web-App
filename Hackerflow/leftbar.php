@@ -17,7 +17,7 @@
                             <li class="menu-title">Main</li>
 
                             <li>
-                                <a href="index.html" class="waves-effect">
+                                <a href="home.php" class="waves-effect">
                                     <i class="dripicons-home"></i>
                                     <span> Dashboard </span>
                                 </a>
@@ -36,7 +36,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="#" class="waves-effect">
+                                <a href="taskmanager.php" class="waves-effect">
                                     <i class="dripicons-rocket"></i>
                                     <span> Task Manager</span>
                                 </a>
