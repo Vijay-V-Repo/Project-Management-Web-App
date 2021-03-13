@@ -22,13 +22,12 @@
                                     <span> Dashboard </span>
                                 </a>
                             </li>
-                            <li class="has_sub">
-                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-briefcase"></i> <span> Projects </span> <span class="menu-arrow float-right"><i class="mdi mdi-chevron-right"></i></span></a>
-                                <ul class="list-unstyled">
-                                    <li><a href="ongoing-projects.php">Ongoing Projects</a></li>
-                                    <li><a href="completed-projects.php">Completed Projects</a></li>
-                                    
-                                </ul>
+                            
+                            <li>
+                                <a href="project.php" class="waves-effect">
+                                    <i class="dripicons-briefcase"></i>
+                                    <span> Projects</span>
+                                </a>
                             </li>
                             <li>
                                 <a href="idea-project.php" class="waves-effect">
