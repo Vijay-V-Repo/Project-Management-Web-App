@@ -16,6 +16,12 @@
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
         <!-- Sweet Alert -->
         <link href="plugins/sweet-alert2/sweetalert2.css" rel="stylesheet" type="text/css">
+        
+        
+        
+
+
+        
 
     </head>
 
@@ -69,7 +75,7 @@
                                 </div>
         
                                 <div class="p-2">
-                                    <form class="form-horizontal m-t-20" action="login.php">
+                                    <form class="form-horizontal m-t-20" action="login.php" onSubmit = "return checkPassword(this)">
         
                                         <div class="form-group row">
                                             <div class="col-12">
@@ -101,13 +107,13 @@
             
                                         <div class="form-group row">
                                             <div class="col-12">
-                                                <input class="form-control" type="password" required="" name="pass1" id="pass1" placeholder="Password">
+                                                <input class="form-control"  type="password" required="" name="pass1" id="pass1" placeholder="Password">
                                             </div>
                                         </div>
                                         
                                         <div class="form-group row">
                                             <div class="col-12">
-                                                <input class="form-control" type="password" required="" name="pass2" id="pass2" placeholder="Confirm Password">
+                                                <input class="form-control"  type="password" required="" name="pass2" id="pass2" placeholder="Confirm Password" onclick="pass_check()">
                                             </div>
                                         </div>
             
@@ -143,6 +149,37 @@
 
 
         <!-- jQuery  -->
+        
+    <script>
+      // Function to check Whether both passwords 
+            // is same or not. 
+            function checkPassword(form) { 
+                password1 = form.pass1.value; 
+                password2 = form.pass2.value; 
+  
+                // If password not entered 
+                if (password1 == '') 
+                    alert ("Please enter Password"); 
+                      
+                // If confirm password not entered 
+                else if (password2 == '') 
+                    alert ("Please enter confirm password"); 
+                      
+                // If Not same return False.     
+                else if(password1 != password2) { 
+                    alert ("\nPassword did not match: Please try again...") 
+                    return false; 
+                } 
+  
+                // If same return True. 
+                else{ 
+                     
+                    return true; 
+                } 
+            } 
+        </script>
+        
+        
         <script src="plugins/sweet-alert2/sweetalert2.min.js" aria-hidden="true"></script>
         <script src="assets/pages/sweet-alert.init.js" aria-hidden="true"></script>
         <script src="assets/js/jquery.min.js"></script>
