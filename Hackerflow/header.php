@@ -2,7 +2,7 @@
 
                         <div class="topbar-left	d-none d-lg-block">
                             <div class="text-center">
-                                <a class="logo"><img src="assets/images/logo.png" height="22" alt="logo"></a>
+                                <a class="logo"><img src="assets/images/logo.png" height="62" alt="logo"></a>
                             </div>
                         </div>
 

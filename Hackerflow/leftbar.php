@@ -17,7 +17,7 @@
                             <li class="menu-title">Main</li>
 
                             <li>
-                                <a href="home.php" class="waves-effect">
+                                <a href="index.html" class="waves-effect">
                                     <i class="dripicons-home"></i>
                                     <span> Dashboard </span>
                                 </a>
@@ -32,7 +32,7 @@
                             <li>
                                 <a href="idea-project.php" class="waves-effect">
                                     <i class="dripicons-document"></i>
-                                    <span> Idea Proposal</span>
+                                    <span> Idea Proposition</span>
                                 </a>
                             </li>
                             <li>
