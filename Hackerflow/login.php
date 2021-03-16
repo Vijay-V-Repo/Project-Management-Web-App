@@ -172,7 +172,7 @@ input[type=submit]:hover {
                     <div class="col-lg-6">
                         <div>
                             <div >
-                                <a class="logo logo-admin"><img src="assets/images/logo_dark.png" height="28" alt="logo"></a>
+                                <a class="logo logo-admin"><img src="assets/images/logo_dark.png" height="78" alt="logo"></a>
                             </div>
                             <h5 class="font-14 text-muted mb-4">Keep Track Of What You are doing !</h5>
                             <p class="text-muted mb-4">Getting anxious about project management in WFH ? Or Difficult to keep track of multiple projects? Here, we give a great solution to you ! Manage your projects and collaborate with your team easily in a user - friendly way. <br>Join with us & lead with us</p>
@@ -191,7 +191,7 @@ input[type=submit]:hover {
                                 <div class="p-2">
                                     <h4 class="text-muted float-right font-18 mt-4">Sign In</h4>
                                     <div>
-                                        <a class="logo logo-admin"><img src="assets/images/logo_dark.png" height="28" alt="logo"></a>
+                                        <a class="logo logo-admin"><img src="assets/images/logo_dark.png" height="78" alt="logo"></a>
                                     </div>
                                 </div>
         
