@@ -100,7 +100,7 @@
                                     <div class="page-title-box">
                                         <div class="row align-items-center">
                                             <div class="col-md-8">
-                                                <h1 class="page-title m-0"><b style="color: navy">TASK MANAGER</b></h1>
+                                                <h1 class="page-title m-0"><b style="color: navy">IDEA PROPOSAL</b></h1>
                                             </div>
                                             
                                             <!-- end col -->

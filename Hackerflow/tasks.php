@@ -166,8 +166,8 @@
                                 <div class="col-sm-12">
                                     <div class="page-title-box">
                                         <div class="row align-items-center">
-                                            <div class="col-md-8">
-                                                <h1 class="page-title m-0" style="text-align: center;"><b style="color: navy">PROJECTS</b></h1>
+                                            <div class="col-md-12">
+                                                <h1 class="page-title m-0" style="text-align: center;"><b style="color: navy">TASK MANAGEMENT</b></h1>
                                             </div>
                                          
                                             <!-- end col -->
