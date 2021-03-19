@@ -32,7 +32,7 @@
                             <li>
                                 <a href="idea-project.php" class="waves-effect">
                                     <i class="dripicons-document"></i>
-                                    <span> Idea Proposal</span>
+                                    <span> Idea Proposition</span>
                                 </a>
                             </li>
                             <li>
@@ -44,13 +44,37 @@
                             <li>
                                 <a href="calendar.php" class="waves-effect"><i class="dripicons-calendar"></i><span> Calendar </span></a>
                             </li>
-
+                            <li>
+                                <a href="query.php" class="waves-effect"><i class="dripicons-pencil"></i><span> Queries </span></a>
+                            </li>
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-archive"></i> <span> Storage </span> <span class="menu-arrow float-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="docstorage.php">Upload File</a></li>
+                                    <li><a href="viewdocs.php">View Files</a></li>
+                                    
+                                    
+                                </ul>
+                            </li>
 
                             <li class="menu-title">More</li>
-
-                            <li>
-                                <a href="https://meet.google.com" class="waves-effect"><i class="dripicons-monitor"></i><span> Google Meet </span></a>
+                            
+                            <li class="has_sub">
+                                <a href="javascript:void(0);" class="waves-effect"><i class="dripicons-cloud"></i> <span> Google Workspace </span> <span class="menu-arrow float-right"><i class="mdi mdi-chevron-right"></i></span></a>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://meet.google.com" target="_blank">Google Meet</a></li>
+                                    <li><a href="https://www.google.com/docs/about/" target="_blank">Google Docs</a></li>
+                                    <li><a href="https://www.google.com/sheets/about/" target="_blank">Google sheets</a></li>
+                                    <li><a href="https://www.google.com/slides/about/" target="_blank">Google Slides</a></li>
+                                    <li><a href="https://www.google.com/intl/en_cy/drive/download/" target="_blank">Google Drive</a></li>
+                                    
+                                </ul>
                             </li>
+                            
+                            <li>
+                                <a href="cost.php" class="waves-effect"><i class="dripicons-card"></i><span> Price Convertor </span></a>
+                            </li>
+                            
                             <li>
                                 <a href="document-creator.php" class="waves-effect"><i class="dripicons-paperclip"></i><span> Document Creator </span></a>
                             </li>

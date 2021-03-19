@@ -1,8 +1,4 @@
-/*
-Template Name: Zinzer - Responsive Bootstrap 4 Admin Dashboard
-Author: ThemeDesign
-File: Main scss File
-*/
+
 /*
 01. General
 02. Loader
@@ -522,14 +518,6 @@ code {
 /* ==============
   Waves Effect
 ===================*/
-/*!
- * Waves v0.6.0
- * http://fian.my.id/Waves
- *
- * Copyright 2014 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
- */
 .waves-effect {
   position: relative;
   cursor: pointer;
@@ -653,7 +641,7 @@ code {
 }
 
 .topbar .navbar-custom {
-  background-color: #424858;
+  background-color: #0066cc;
   border: none;
   -webkit-box-shadow: 0 0 0.25rem rgba(108, 118, 134, 0.1);
           box-shadow: 0 0 0.25rem rgba(108, 118, 134, 0.1);
@@ -684,7 +672,7 @@ code {
 }
 
 .button-menu-mobile {
-  background-color: #424858;
+  background-color: #0066cc;
   font-size: 24px;
   color: #ffffff;
   width: 60px;

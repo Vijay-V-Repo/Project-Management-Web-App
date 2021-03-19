@@ -75,6 +75,8 @@
                                                             
                                                             <a class="dropdown-item" href="#">Task Manager</a>
                                                             <a class="dropdown-item" href="idea-proposal.php">Idea Proposal</a>
+                                                            <a class="dropdown-item" href="testing.php">
+                                                            Project Testing</a>
                                                             <a class="dropdown-item" href="#">Finish Project</a>
                                                         </div>
                                                     </div>

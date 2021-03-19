@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -38,8 +38,8 @@
                 <div class="row header-top-inner">
                     <div class="col-lg-4">
                         <div class="logo">
-                            <a class="d-md-block d-none"><img src="assets/images/logo/logo.png" alt=""></a>
-                            <a class="d-md-none d-block"><img src="assets/images/logo/logo-2.png" alt=""></a>
+                            <a class="d-md-block d-none"><img src="assets/images/logo/logo.png" alt="" style="height:80px;"></a>
+                            <a class="d-md-none d-block"><img src="assets/images/logo/logo-2.png" alt="" style="height:80px;" ></a>
                         </div>
                     </div>
                     <div class="col-lg-8">
@@ -77,7 +77,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-8"> 
                         <div class="slider-text-info white-text">
-                            <h1>ZINZER <br>A Complete Project Manager</h1>
+                            <h1>PEPPO <br>A Complete Project Manager</h1>
                             <p>Being a Project Manager is like being an artist, you have the different colored process streams combining into a work of art.</p>
                             <div class="slider-button">
                                 <a href="Hackerflow/login.php" class=" slider-btn uppercase"><span><i class="fa fa-user"></i>Log In</span></a>
@@ -109,7 +109,7 @@
                 <div class="col-lg-5 offset-xl-1 order-2 order-lg-2">
                     <div class="about-content">
                         <div class="about-title">
-                            <h2>ABOUT ZINZER</h2>
+                            <h2>ABOUT PEPPO</h2>
                         </div>
                         <p>Project Management decides the success of your project. It shouldn't be hard. We provide a simple way to manage all your projects and analyse your working status within a second. </p>
                         <p>Create projects, Let your team mates join in your project and work together. Keep track of what other team mates doing as well with us.</p>
@@ -157,7 +157,7 @@
                             </div>
                             <div class="feature-content">
                                 <div class="feature-text">
-                                <h4>Idea Proposal</h4>
+                                <h4>Idea Proposition</h4>
                                 <p>This tab lets your team to submit their own ideas so that the team lead can finalize one among them.</p>
                             </div>
                             </div>
@@ -360,7 +360,7 @@
                     <div class="col-lg-12">
                         <div class="footer-content">
                             <div class="footer-logo">
-                                <a><img src="assets/images/logo/logo.png" alt=""></a>
+                                <a><img src="assets/images/logo/logo.png" alt="" style="height:100px;"></a>
                             </div>
                             <p>Copyright © 2021 - CODE CREW</p>
                             
